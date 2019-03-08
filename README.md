@@ -7,7 +7,7 @@ client - This Folder Consists of the Frontend of the Project
 server - This Folder Consists of the Backend of the Project
 data - This Folder Consists of the DB dump
 
-#Packages Used in Frontend
+# Packages Used in Frontend
 
 Axios - Promise based HTTP client for the browser and node.js
         npm install --save axios 
@@ -15,7 +15,7 @@ Axios - Promise based HTTP client for the browser and node.js
 D3 - D3 (Data-Driven Documents or D3.js) is a JavaScript library for visualizing data using web standards
      npm install --save d3 
 
-#Packages Used in Backend
+# Packages Used in Backend
 
 Express - npm install express
 
@@ -26,7 +26,7 @@ Knex - npm install knex --save
 
 Cors - npm install cors 
 
-#Backend Setup
+# Backend Setup
 
 Clone the project 
 
@@ -40,7 +40,7 @@ Run 'npm start'
 
 Backend will run on `http://localhost:3000`
 
-#Frontend Setup
+# Frontend Setup
 
 Run 'npm install' in the client folder
 
@@ -48,7 +48,7 @@ Run 'npm run dev'
 
 Frontend will run on `http://localhost:8080`
 
-#Functionality
+# Functionality
 
 The Barchart will display the data as month-wise by default
 
