@@ -3,9 +3,11 @@ A Project to visualize data as a Barchart using D3, Vue, Express, Node and Postg
 
 # Project Structure 
 
-. client - This Folder Consists of the Frontend of the Project 
-. server - This Folder Consists of the Backend of the Project
-. data - This Folder Consists of the DB dump
+client - This Folder Consists of the Frontend of the Project 
+
+server - This Folder Consists of the Backend of the Project
+
+data - This Folder Consists of the DB dump
 
 # Packages Used in Frontend
 
