@@ -18,7 +18,7 @@ npm run build
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 ##Docker Steps Client- Frontend 13-03-2019
-1.  Clone the repository.
+Clone the repository.
 
 $ git clone https://github.com/imvishz/d3-PEVN.git
 
