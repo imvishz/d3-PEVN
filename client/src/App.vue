@@ -29,35 +29,36 @@ export default {
             filterType : "MONTHLY",
             filters    : [{"value":"WEEKLY"},{"value":"MONTHLY"}],
             filterMonth : "",
-            monthFilter : [{"value":"Jan"},{"value":"Feb"}],
+            monthFilter : [{"value":"Jan"},{"value":"Feb"},{"value":"Mar"},{"value":"Apr"},{"value":"May"},{"value":"Jun"},
+                          {"value":"Jul"},{"value":"Aug"},{"value":"Sep"},{"value":"Oct"},{"value":"Nov"},{"value":"Dec"}],
         }
     },
     
     methods: {
       createGraph: function(filterType) {
-        
+        //Margin for Svg
         var margin = { left:80, right:20, top:50, bottom:100 };
-
+        //Width & height for svg
         var width = 600 - margin.left - margin.right,
             height = 400 - margin.top - margin.bottom;
         
         var flag ;
-        
+        //Clearing Svg for update
         d3.select("svg")
             .remove()
             .exit()
-        
+        //appending svg to body 
         var g = d3.select("body")
                   .append("svg")
                   .attr("width", width + margin.left + margin.right)
                   .attr("height", height + margin.top + margin.bottom)
                   .append("g")
                   .attr("transform", "translate(" + margin.left + ", " + margin.top + ")");
-
+        //XAxis Group
         var xAxisGroup = g.append("g")
                           .attr("class", "x axis")
                           .attr("transform", "translate(0," + height +")");
-
+        //Y axis Group
         var yAxisGroup = g.append("g")
                           .attr("class", "y axis");
 
