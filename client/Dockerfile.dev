@@ -7,4 +7,5 @@ RUN npm install
 
 COPY . .
 #default command
+EXPOSE 8080
 CMD ["npm", "run", "dev"]

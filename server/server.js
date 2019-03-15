@@ -14,12 +14,15 @@ const db = knex({
    
         client: 'pg',
         connection: {
-          host : '127.0.0.1',
+          host : '192.168.43.218',
+          port : 5433,
           user : 'postgres',
-          password : 'test',
-          database : 'days-sum'
+          password : 'mysecretpassword',
+          database : 'postgres',
+          charset: 'utf8'
         }
 });
+
 
 //bodyParser
 app.use(bodyParser.urlencoded({extended: false}))
