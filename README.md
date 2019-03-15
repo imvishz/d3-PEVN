@@ -4,29 +4,31 @@ A Project to visualize data as a Barchart using D3, Vue, Express, Node and Postg
 # Project Structure 
 
 client - This Folder Consists of the Frontend of the Project 
+
 server - This Folder Consists of the Backend of the Project
+
 data - This Folder Consists of the DB dump
 
-#Packages Used in Frontend
+# Packages Used in Frontend
 
 Axios - Promise based HTTP client for the browser and node.js
-        npm install --save axios 
+        'npm install --save axios' 
 
 D3 - D3 (Data-Driven Documents or D3.js) is a JavaScript library for visualizing data using web standards
-     npm install --save d3 
+     'npm install --save d3' 
 
-#Packages Used in Backend
+# Packages Used in Backend
 
-Express - npm install express
+Express - 'npm install express'
 
-Body Parser - npm install body-parser
+Body Parser - 'npm install body-parser'
 
-Knex - npm install knex --save
-       npm install pg
+Knex - 'npm install knex --save'
+       'npm install pg'
 
-Cors - npm install cors 
+Cors - 'npm install cors' 
 
-#Backend Setup
+# Backend Setup
 
 Clone the project 
 
@@ -40,7 +42,7 @@ Run 'npm start'
 
 Backend will run on `http://localhost:3000`
 
-#Frontend Setup
+# Frontend Setup
 
 Run 'npm install' in the client folder
 
@@ -48,7 +50,7 @@ Run 'npm run dev'
 
 Frontend will run on `http://localhost:8080`
 
-#Functionality
+# Functionality
 
 The Barchart will display the data as month-wise by default
 
