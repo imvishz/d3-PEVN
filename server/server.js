@@ -12,15 +12,14 @@ app.options('*', cors());
 //DB Connection
 const db = knex({
    
-        client: 'pg',
-        connection: {
-          host : '192.168.43.218',
-          port : 5433,
-          user : 'postgres',
-          password : 'mysecretpassword',
-          database : 'postgres',
-          charset: 'utf8'
-        }
+  client: 'pg',
+  connection: {
+    host : '192.168.1.3',
+    port : 5433,
+    user : 'postgres',
+    password : 'test',
+    database : 'dayssum'
+  }
 });
 
 
@@ -44,3 +43,6 @@ app.post('/weekly', (req,res) => {
 
 //port
 app.listen(3000);
+
+
+
