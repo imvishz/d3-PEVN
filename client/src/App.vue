@@ -29,9 +29,8 @@ export default {
             filterType : "MONTHLY",
             filters    : [{"value":"WEEKLY"},{"value":"MONTHLY"}],
             filterMonth : "",
-            monthFilter : [{"value":"Jan"},{"value":"Feb"},{"value":"Mar"},{"value":"Apr"},{"value":"May"},
-                          {"value":"Jun"},{"value":"Jul"},{"value":"Aug"},{"value":"Sep"},{"value":"Oct"},
-                          {"value":"Nov"},{"value":"Dec"}],
+            monthFilter : [{"value":"Jan"},{"value":"Feb"},{"value":"Mar"},{"value":"Apr"},{"value":"May"},{"value":"Jun"},
+                          {"value":"Jul"},{"value":"Aug"},{"value":"Sep"},{"value":"Oct"},{"value":"Nov"},{"value":"Dec"}],
         }
     },
     
