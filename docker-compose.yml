@@ -7,9 +7,8 @@ services:
       POSTGRES_PASSWORD: test
       POSTGRES_USER: postgres
       POSTGRES_DB: dayssum
-    tmpfs:
-      - /run/postgresql
-      - /tmp
+    volumes:
+    - ./dbdump.sql:/docker-entrypoint-initdb.d/init.sql    
     ports:
       - 5433:5432 
   
