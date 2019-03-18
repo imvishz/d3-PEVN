@@ -59,5 +59,7 @@ which will show the select month drop down choose the month to display the data 
 
 # To Run this application using Docker
 
+Make sure u have installed Dockekr on your Machine
+
 Open a terminal in the project directory and type 'docker-compose up'
 
