@@ -1,19 +1,24 @@
-### Docker Steps Client- Backend 13-03-2019
-Clone the repository.
+# Packages Used in Backend
 
-$ git clone https://github.com/imvishz/d3-PEVN.git
+Express - 'npm install express'
 
-$ cd d3-PEVN/server/
+Body Parser - 'npm install body-parser'
 
-$ docker build -t backend .
+Knex - 'npm install knex --save'
+       'npm install pg'
 
-$ docker image ls
+Cors - 'npm install cors' 
 
-$ docker run -p 3000:3000 -d backend
+# Backend Setup
 
+Clone the project 
 
-### Install NodeJS in your system if you face any error regarding NPM commands.
+Setup the PostgreSQL and Restore the DB file dbdump.sql into your database
 
-$ curl -sL https://rpm.nodesource.com/setup_10.x | sudo bash -
+Modify the configuration of the database in server/server.js
 
-$ sudo yum install nodejs
+Run 'npm install' in the server folder
+
+Run 'npm start' 
+
+Backend will run on `http://localhost:3000`
