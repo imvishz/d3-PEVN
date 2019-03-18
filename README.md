@@ -36,17 +36,17 @@ Setup the PostgreSQL and Restore the DB file dbdump.sql into your database
 
 Modify the configuration of the database in server/server.js
 
-Run 'npm install' in the server folder
+Run 'npm install' in the server folder this will install all the dependencies
 
-Run 'npm start' 
+Run 'npm start' to start the backend service
 
 Backend will run on `http://localhost:3000`
 
 # Frontend Setup
 
-Run 'npm install' in the client folder
+Run 'npm install' in the client folder to install all the dependencies
 
-Run 'npm run dev' 
+Run 'npm run dev' to start the frontend service
 
 Frontend will run on `http://localhost:8080`
 
