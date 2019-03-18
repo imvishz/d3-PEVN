@@ -61,5 +61,7 @@ which will show the select month drop down choose the month to display the data 
 
 Make sure u have installed Dockekr on your Machine
 
+Modify the configuration of database in server/server.js
+
 Open a terminal in the project directory and type 'docker-compose up'
 
