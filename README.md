@@ -57,3 +57,7 @@ The Barchart will display the data as month-wise by default
 To display the data as Weekly select the sort by drop down as weekly,
 which will show the select month drop down choose the month to display the data for that particular month
 
+# To Run this application using Docker
+
+Open a terminal in the project directory and type 'docker-compose up'
+
