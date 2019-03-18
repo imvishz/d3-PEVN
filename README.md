@@ -7,7 +7,7 @@ client - This Folder Consists of the Frontend of the Project
 
 server - This Folder Consists of the Backend of the Project
 
-data - This Folder Consists of the DB dump
+dbdump.sql - database dump
 
 # Packages Used in Frontend
 
@@ -32,9 +32,9 @@ Cors - 'npm install cors'
 
 Clone the project 
 
-Setup the PostgreSQL and import the DB file db_dump into your database
+Setup the PostgreSQL and Restore the DB file dbdump.sql into your database
 
-Modify the configuration of database in server/server.js
+Modify the configuration of the database in server/server.js
 
 Run 'npm install' in the server folder
 
@@ -59,9 +59,10 @@ which will show the select month drop down choose the month to display the data 
 
 # To Run this application using Docker
 
-Make sure u have installed Dockekr on your Machine
+Make sure you have installed Docker and Docker-Compose on your Machine
 
 Modify the configuration of database in server/server.js
 
-Open a terminal in the project directory and type 'docker-compose up'
+Open a terminal window in the project directory and type the command `docker-compose up`
 
+Application Will run on `http://localhost:8080`
