@@ -9,14 +9,13 @@ D3 - D3 (Data-Driven Documents or D3.js) is a JavaScript library for visualizing
 ## Build Setup
 
 ``` bash
-# install dependencies
-npm install
+# Frontend Setup
 
-# serve with hot reload at localhost:8080
-npm run dev
+Run 'npm install' in the client folder to install all the dependencies
 
-# build for production with minification
-npm run build
+Run 'npm run dev' to start the frontend service
+
+Frontend will run on `http://localhost:8080`
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
